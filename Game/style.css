@@ -1,0 +1,95 @@
+body {
+  background-color: #010165;
+  margin: 0px;
+}
+.header{
+  background-color: #00ffff;
+  text-align: center;
+}
+.title-row{
+  margin-top: 42px;
+  margin-bottom: 21px;
+  text-align: center;
+}
+table{
+
+  margin-left: 30%;
+  padding-bottom: 5%;
+
+}
+.instructions-title{
+  display: inline;
+  font-size: 18px;
+  color: #00ffff;
+  font-family: ‘Work Sans’
+}
+.instructions-row{
+  margin: 0 auto;
+  width: 400px;
+}
+.instructions-number{
+  padding-right: 25px;
+  font-family: ‘Work Sans’;
+  font-size: 36px;
+  color: #00ffff
+
+}
+.instructions-text{
+  padding: 10px;
+  font-family: 'Work Sans';
+  font-size: 14px;
+  color: #ffffff;
+}
+.door-row{
+  text-align: center;
+}
+.start-row{
+  margin: auto;
+  width: 120px;
+  height: 43px;
+  font-family: "Work Sans";
+  background-color:  #eb6536;
+  padding-top: 18px;
+  font-size: 18px;
+  text-align: center;
+  color: #010165;
+  margin-bottom: 21px;
+  cursor: pointer;
+}
+
+.door-frame{
+  cursor: pointer;
+  padding: 10px;
+}
+.score-text{
+  color: white;
+  padding: 30px;
+  font-family: 'Modak', cursive;
+  font-size: 20px;
+
+}
+.score-box{
+  font-size: 25px;
+  color: white;
+}
+th{
+  background-color: rgba(200,200,200,0.2);
+  text-align: center;
+}
+table{
+  margin-left: 36%;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    width: 100%;
+
+  }
+  .ins{
+    margin-right: 100px;
+  }
+  table th{
+    margin-right: 90%;
+  }
+
+}
